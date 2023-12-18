@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #4c8aa7;
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+}
+h1{
+    text-align: center;
+    color: #333;
+}
+.tarea{
+    padding: 10px;
+    border-bottom: 1px solid #3d3b3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tareaCompleta {
+    text-decoration: line-through;
+    color: #FF4E00;
+}
+.agregarTarea {
+    margin-top: 20px;
+    display: flex;
+}
+#iniciarOtroDiaBtn{
+    margin-top: 10px;
+}
+#agregarTarea{
+    flex: 1;
+    padding: 8px;
+    font-size: 15px;
+    border: 2px solid #111111;
+    border-radius: 5px;
+}
+button{
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #1976d2;
+    margin-left: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.botonCompletar{
+    background-color: #FF4E00;
+    color: white;
+    border: none;
+}
